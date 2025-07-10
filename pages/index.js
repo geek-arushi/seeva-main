@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 import { useState } from "react";
 import Slider from "react-slick";
 import VideoPopup from "../src/components/VideoPopup";
@@ -76,8 +76,8 @@ const Home = () => {
                   <p data-animation="fadeInLeft" data-delay="0.8s">
                     Experience cutting-edge veterinary care with our
                     comprehensive range of medicines and supplements. We
-                    prioritize your animals wellbeing with scientifically
-                    proven treatments.
+                    prioritize your animals wellbeing with scientifically proven
+                    treatments.
                   </p>
                 </div>
               </div>
@@ -136,13 +136,23 @@ const Home = () => {
                     className="image-two wow fadeInDown"
                     data-wow-delay="0.4s"
                   >
-                    <Image src="/assets/img/tile-gallery/02.jpg" alt="Image" width={500} height={300} />
+                    <Image
+                      src="/assets/img/tile-gallery/02.jpg"
+                      alt="Image"
+                      width={500}
+                      height={300}
+                    />
                   </div>
                   <div
                     className="image-three wow fadeInUp"
                     data-wow-delay="0.5s"
                   >
-                    <Image src="/assets/img/tile-gallery/03.jpg" alt="Image" width={500} height={300} />
+                    <Image
+                      src="/assets/img/tile-gallery/03.jpg"
+                      alt="Image"
+                      width={500}
+                      height={300}
+                    />
                   </div>
                 </div>
               </div>
@@ -168,7 +178,7 @@ const Home = () => {
                         data-wow-delay="0.3s"
                       >
                         <div className="icon">
-                          <i className="flaticon-dental-care-1" />
+                          <i className="fas fa-dog" /> {/* Dog icon */}
                         </div>
                         <h4 className="title">Backed by veterinarians</h4>
                         <p>
@@ -183,7 +193,7 @@ const Home = () => {
                         data-wow-delay="0.4s"
                       >
                         <div className="icon">
-                          <i className="flaticon-dental-care-2" />
+                          <i className="fas fa-cat" /> {/* Cat icon */}
                         </div>
                         <h4 className="title">
                           GMP-certified & quality tested
@@ -221,7 +231,7 @@ const Home = () => {
                   data-wow-delay="0.3s"
                 >
                   <div className="icon">
-                    <i className="flaticon-tooth-1" />
+                    <i className="fas fa-dog" /> {/* Dog icon */}
                   </div>
                   <h4 className="title">
                     <Link href="/">Companion Animal Medicines</Link>
@@ -238,7 +248,7 @@ const Home = () => {
                   data-wow-delay="0.4s"
                 >
                   <div className="icon">
-                    <i className="flaticon-tooth-2" />
+                    <i className="fas fa-cat" /> {/* Cat icon */}
                   </div>
                   <h4 className="title">
                     <Link href="/">Livestock Health Solutions</Link>
@@ -255,7 +265,7 @@ const Home = () => {
                   data-wow-delay="0.5s"
                 >
                   <div className="icon">
-                    <i className="flaticon-tooth-3" />
+                    <i className="fas fa-dog" /> {/* Dog icon */}
                   </div>
                   <h4 className="title">
                     <Link href="/">Nutritional Supplements</Link>
@@ -272,7 +282,7 @@ const Home = () => {
                   data-wow-delay="0.6s"
                 >
                   <div className="icon">
-                    <i className="flaticon-tooth-4" />
+                    <i className="fas fa-paw" /> {/* Paw icon */}
                   </div>
                   <h4 className="title">
                     <Link href="/">Topical & External Applications</Link>
@@ -295,7 +305,7 @@ const Home = () => {
                 <div className="section-heading text-center mb-40">
                   <span className="tagline">Animal-Specific Solutions</span>
                   <h2 className="title">
-                    Explore Carefully Formulated Products For Each Animals
+                    Explore Carefully Formulated Products For Each Animal's
                     Unique Health Needs.
                   </h2>
                 </div>
@@ -346,7 +356,6 @@ const Home = () => {
                         Read More <i className="far fa-plus" />
                       </a>
                     </Link>
-
                   </div>
                 </div>
               </div>
@@ -371,7 +380,6 @@ const Home = () => {
                         Read More <i className="far fa-plus" />
                       </a>
                     </Link>
-
                   </div>
                 </div>
               </div>
@@ -410,10 +418,9 @@ const Home = () => {
                 <div className="col-lg-auto col-md-5 col-sm-6">
                   <div className="counter-item counter-white">
                     <div className="icon">
-                      <i className="flaticon-stethoscope" />
+                      <i className="fas fa-cat" />
                     </div>
                     <div className="counter-wrap">
-                      {/* <span className="counter">359</span> */}
                       <Counter end={100} />
                       <span className="suffix">+</span>
                     </div>
@@ -423,12 +430,11 @@ const Home = () => {
                 <div className="col-lg-auto col-md-5 col-sm-6">
                   <div className="counter-item counter-white">
                     <div className="icon">
-                      <i className="flaticon-stethoscope" />
+                      <i className="fas fa-cow" />
                     </div>
                     <div className="counter-wrap">
                       {" "}
                       <Counter end={40} />
-                      {/* <span className="counter">85</span> */}
                       <span className="suffix">k+</span>
                     </div>
                     <h6 className="title"> Satisfied Customers</h6>
@@ -437,11 +443,10 @@ const Home = () => {
                 <div className="col-lg-auto col-md-5 col-sm-6">
                   <div className="counter-item counter-white">
                     <div className="icon">
-                      <i className="flaticon-stethoscope" />
+                      <i className="fas fa-dog" />
                     </div>
                     <div className="counter-wrap">
                       <Counter end={32} />
-                      {/* <span className="counter">863</span> */}
                       <span className="suffix">+</span>
                     </div>
                     <h6 className="title">4.8 Star Reviews</h6>
@@ -450,11 +455,10 @@ const Home = () => {
                 <div className="col-lg-auto col-md-5 col-sm-6">
                   <div className="counter-item counter-white">
                     <div className="icon">
-                      <i className="flaticon-stethoscope" />
+                      <i className="fas fa-cow" />
                     </div>
                     <div className="counter-wrap">
                       <Counter end={86} />
-                      {/* <span className="counter">86</span> */}
                       <span className="suffix">k+</span>
                     </div>
                     <h6 className="title">4.9 Star Reviews</h6>
@@ -491,7 +495,12 @@ const Home = () => {
                     data-wow-delay="0.3s"
                   >
                     <div className="doctor-photo">
-                      <Image src="/assets/img/doctors/14.jpg" alt="Image" width={500} height={300} />
+                      <Image
+                        src="/assets/img/doctors/14.jpg"
+                        alt="Image"
+                        width={500}
+                        height={300}
+                      />
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -509,9 +518,12 @@ const Home = () => {
                     data-wow-delay="0.4s"
                   >
                     <div className="doctor-photo">
-                      <Image src="/assets/img/doctors/15.jpg" alt="Image" width={500} height={300} />
-
-
+                      <Image
+                        src="/assets/img/doctors/15.jpg"
+                        alt="Image"
+                        width={500}
+                        height={300}
+                      />
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -529,9 +541,12 @@ const Home = () => {
                     data-wow-delay="0.5s"
                   >
                     <div className="doctor-photo">
-                      <Image src="/assets/img/doctors/16.jpg" alt="Image" width={500} height={300} />
-
-
+                      <Image
+                        src="/assets/img/doctors/16.jpg"
+                        alt="Image"
+                        width={500}
+                        height={300}
+                      />
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -547,9 +562,12 @@ const Home = () => {
                     data-wow-delay="0.6s"
                   >
                     <div className="doctor-photo">
-                      <Image src="/assets/img/doctors/17.jpg" alt="Image" width={500} height={300} />
-
-
+                      <Image
+                        src="/assets/img/doctors/17.jpg"
+                        alt="Image"
+                        width={500}
+                        height={300}
+                      />
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
