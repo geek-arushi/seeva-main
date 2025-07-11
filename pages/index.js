@@ -128,8 +128,8 @@ const Home = () => {
                       className="animate-float-bob-x"
                       src="/assets/img/tile-gallery/01.jpg"
                       alt="Image"
-                      width={500}
-                      height={300}
+                      width={316}
+                      height={385}
                     />
                   </div>
                   <div
@@ -139,8 +139,8 @@ const Home = () => {
                     <Image
                       src="/assets/img/tile-gallery/02.jpg"
                       alt="Image"
-                      width={500}
-                      height={300}
+                      width={370}
+                      height={513}
                     />
                   </div>
                   <div
@@ -150,8 +150,8 @@ const Home = () => {
                     <Image
                       src="/assets/img/tile-gallery/03.jpg"
                       alt="Image"
-                      width={500}
-                      height={300}
+                      width={316}
+                      height={247}
                     />
                   </div>
                 </div>

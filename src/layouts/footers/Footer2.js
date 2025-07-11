@@ -7,58 +7,6 @@ const Footer2 = ({ noNewsletters }) => {
         noNewsletters ? "" : "have-cta-boxes-two"
       }`}
     >
-      {!noNewsletters && (
-        <div className="cta-boxes-wrapper">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-4 col-md-6">
-                <div
-                  className="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/cta-img/cta-boxed-2-1.jpg)",
-                  }}
-                >
-                  <h2 className="cta-title">
-                    Looking a Doctors For Health Care
-                  </h2>
-                  <a href="#" className="template-btn template-btn-bordered">
-                    Find Doctor <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div
-                  className="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/cta-img/cta-boxed-2-2.jpg)",
-                  }}
-                >
-                  <h2 className="cta-title">Make Appointment Online (24/7)</h2>
-                  <a href="#" className="template-btn template-btn-bordered">
-                    Appointment <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-8">
-                <div
-                  className="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/cta-img/cta-boxed-2-3.jpg)",
-                  }}
-                >
-                  <h2 className="cta-title">Innovative Psychial Therapist</h2>
-                  <a href="#" className="template-btn template-btn-bordered">
-                    Find Doctor <i className="far fa-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
       <div className="footer-inner bg-color-primary">
         <div className="container">
           <div className="footer-widgets">
@@ -66,33 +14,32 @@ const Footer2 = ({ noNewsletters }) => {
               <div className="col-lg-3 col-md-8">
                 <div className="widget text-widget">
                   <div className="footer-logo">
-                    <img src="assets/img/logo-white.png" alt="Medibo" />
+                    <img src="assets/img/logo-white.png" alt="Sansid Pharma" />
                   </div>
                   <p>
-                    Sansid Pharma Pvt. Ltd.
-Always there to care
-
+                    Sansid Pharma Pvt. Ltd. – Empowering India’s livestock
+                    sector with affordable, high-quality pharmaceuticals.
+                    "Humans Thrive if Cows Survive."
                   </p>
                   <ul className="contact-list">
                     <li>
-                      <a href="">
+                      <a href="https://www.google.com/maps?q=Shop+No.2,+Samarth+Complex,+Ur.+Devachi,+Pune+–+412308+(M.H)">
                         <i className="far fa-map-marker-alt" />
-                       Shop No.2, Samarth Complex,
-Ur. Devachi, Pune – 412308 (M.H)
-
+                        Shop No.2, Samarth Complex, Ur. Devachi, Pune – 412308
+                        (M.H)
                       </a>
                     </li>
                     <li>
-                      <a href="">
+                      <a href="mailto:sansidpharma@gmail.com">
                         <i className="far fa-envelope" />
                         sansidpharma@gmail.com
                       </a>
                     </li>
                     <li>
-                      {/* <a href="tel:01267899">
+                      <a href="tel:+91-9457188899">
                         <i className="far fa-phone" />
-                       
-                      </a> */}
+                        +91-9457188899
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -108,7 +55,7 @@ Ur. Devachi, Pune – 412308 (M.H)
                             <a href="#">Home</a>
                           </li>
                           <li>
-                            <a href="#">About us</a>
+                            <a href="#">About Us</a>
                           </li>
                           <li>
                             <a href="#">Contact Us</a>
@@ -119,7 +66,6 @@ Ur. Devachi, Pune – 412308 (M.H)
                           <li>
                             <a href="#">Privacy Policy</a>
                           </li>
-                         
                         </ul>
                       </div>
                     </div>
@@ -144,9 +90,6 @@ Ur. Devachi, Pune – 412308 (M.H)
                           <li>
                             <a href="#">For Fish</a>
                           </li>
-                          {/* <li>
-                            <a href="#">Latest News</a>
-                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -157,15 +100,14 @@ Ur. Devachi, Pune – 412308 (M.H)
                 <div className="widget newsletters-widget">
                   <h4 className="widget-title">Stay Connected</h4>
                   <p>
-                    Sed ut perspiciatis unde omniste <br /> natus error sit
-                    voluptatem
+                    Sign up for the latest news, updates, and healthcare tips.
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}
                     action="#"
                     className="newsletters-form"
                   >
-                    <input type="email" placeholder="Email Address" />
+                    <input type="email" placeholder="Enter Your Email" />
                     <button type="submit">
                       <i className="far fa-arrow-right" />
                     </button>
@@ -174,7 +116,7 @@ Ur. Devachi, Pune – 412308 (M.H)
                     <h6>
                       <i className="far fa-clock" /> Opening Hours
                     </h6>
-                    <p>Sun - Friday, 08:00 am - 05:00 pm</p>
+                    <p>Mon - Fri, 09:00 AM - 06:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -182,7 +124,7 @@ Ur. Devachi, Pune – 412308 (M.H)
           </div>
           <div className="copyright-area">
             <p>
-              © 2021 <a href="#">Seeva</a>. All Rights Reserved
+              © 2025 <a href="#">Sansid Pharma</a>. All Rights Reserved.
             </p>
           </div>
         </div>
@@ -190,4 +132,5 @@ Ur. Devachi, Pune – 412308 (M.H)
     </footer>
   );
 };
+
 export default Footer2;

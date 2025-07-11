@@ -6,7 +6,7 @@ import HeadersLayouts from "./headers/HeadersLayouts";
 
 const Layouts = ({
   children,
-  footer,
+  footer = 2,
   headerTopbar,
   noNewsletters,
   position,
