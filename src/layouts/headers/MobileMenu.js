@@ -21,68 +21,46 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
         </div>
         <nav className="mobile-menu">
           <ul className="primary-menu">
-            <li className="active">
-              <a href="#">
-                Home
-                <span
-                  className="dd-trigger"
-                  onClick={() => activeMenuSet("demo")}
-                >
-                  <i className="fas fa-angle-down" />
-                </span>
-              </a>
-              <ul className="sub-menu" style={activeLi("demo")}>
+            <li>
+              <Link href="/">
+                <a>
+                  Home
+                  <span
+                    className="dd-trigger"
+                    onClick={() => activeMenuSet("home")}
+                  >
+                    <i className="fas fa-angle-down" />
+                  </span>
+                </a>
+              </Link>
+              <ul className="sub-menu" style={activeLi("home")}>
                 <Home />
               </ul>
             </li>
             <li>
               <Link href="/about">About</Link>
             </li>
-
             <li>
-              <a href="#">
-                Doctors
-                <span
-                  className="dd-trigger"
-                  onClick={() => activeMenuSet("Doctor")}
-                >
-                  <i className="fas fa-angle-down" />
-                </span>
-              </a>
-              <ul className="sub-menu" style={activeLi("Doctor")}>
+              <Link href="/doctor">
+                <a>
+                  Products
+                  <span
+                    className="dd-trigger"
+                    onClick={() => activeMenuSet("products")}
+                  >
+                    <i className="fas fa-angle-down" />
+                  </span>
+                </a>
+              </Link>
+              <ul className="sub-menu" style={activeLi("products")}>
                 <Doctor />
               </ul>
             </li>
             <li>
-              <a href="#">
-                Blog
-                <span
-                  className="dd-trigger"
-                  onClick={() => activeMenuSet("Blog")}
-                >
-                  <i className="fas fa-angle-down" />
-                </span>
-              </a>
-              <ul className="sub-menu" style={activeLi("Blog")}>
-                <Blog />
-              </ul>
+              <Link href="/contact">Contact</Link>
             </li>
             <li>
-              <a href="#">
-                Shop
-                <span
-                  className="dd-trigger"
-                  onClick={() => activeMenuSet("shop")}
-                >
-                  <i className="fas fa-angle-down" />
-                </span>
-              </a>
-              <ul className="sub-menu" style={activeLi("shop")}>
-                <Shop />
-              </ul>
-            </li>
-            <li className="active">
-              <Link href="/contact">Contact</Link>
+              <Link href="/faq">Faq</Link>
             </li>
           </ul>
         </nav>

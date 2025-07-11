@@ -114,7 +114,7 @@ const Home = () => {
           </Slider>
         </section>
         {/*====== Hero Slider End ======*/}
-        {/*====== About Section Start ======*/}
+         {/*====== About Section Start ======*/}
         <section className="about-section section-gap">
           <div className="container">
             <div className="row align-items-center justify-content-center">
@@ -128,8 +128,8 @@ const Home = () => {
                       className="animate-float-bob-x"
                       src="/assets/img/tile-gallery/01.jpg"
                       alt="Image"
-                      width={316}
-                      height={385}
+                      width={500}
+                      height={300}
                     />
                   </div>
                   <div
@@ -139,8 +139,8 @@ const Home = () => {
                     <Image
                       src="/assets/img/tile-gallery/02.jpg"
                       alt="Image"
-                      width={370}
-                      height={513}
+                      width={500}
+                      height={300}
                     />
                   </div>
                   <div
@@ -150,8 +150,8 @@ const Home = () => {
                     <Image
                       src="/assets/img/tile-gallery/03.jpg"
                       alt="Image"
-                      width={316}
-                      height={247}
+                      width={500}
+                      height={300}
                     />
                   </div>
                 </div>
