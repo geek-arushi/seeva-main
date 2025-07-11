@@ -305,7 +305,7 @@ const Home = () => {
                 <div className="section-heading text-center mb-40">
                   <span className="tagline">Animal-Specific Solutions</span>
                   <h2 className="title">
-                    Explore Carefully Formulated Products For Each Animal's
+                    Explore Carefully Formulated Products For Each Animals
                     Unique Health Needs.
                   </h2>
                 </div>
